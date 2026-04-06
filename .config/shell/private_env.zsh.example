@@ -2,3 +2,4 @@
 # chmod 600 ~/.config/shell/private_env.zsh
 
 export KAGGLE_API_TOKEN="replace-me"
+export ANTHROPIC_AUTH_TOKEN="replace-me"

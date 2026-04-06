@@ -28,8 +28,14 @@ link_file() {
 link_file ".zshrc"
 link_file ".zprofile"
 link_file ".config/pip/pip.conf"
+link_file ".codex/config.toml"
+link_file ".codex/config.json"
+link_file ".claude/settings.json"
+link_file ".claude/skills/proxy.md"
 
 mkdir -p "$HOME/.config/shell"
+mkdir -p "$HOME/.claude/skills"
+mkdir -p "$HOME/.codex"
 
 if [ ! -f "$HOME/.config/shell/private_env.zsh" ]; then
   cp "$repo/.config/shell/private_env.zsh.example" "$HOME/.config/shell/private_env.zsh"

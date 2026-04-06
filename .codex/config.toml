@@ -1,0 +1,37 @@
+model_provider = "Fengling"
+model = "gpt-5.4"
+model_reasoning_effort = "xhigh"
+disable_response_storage = true
+approval_policy = "on-request"
+sandbox_mode = "danger-full-access"
+model_supports_reasoning_summaries = true
+
+[model_providers.Fengling]
+name = "OpenAI"
+base_url = "http://api.emptydust.com:8317/v1"
+wire_api = "responses"
+requires_openai_auth = true
+
+[projects."/Users/fengling/Github/EmptyDust.github.io"]
+trust_level = "trusted"
+
+[projects."/Users/fengling/Github"]
+trust_level = "trusted"
+
+[projects."/Users/fengling"]
+trust_level = "trusted"
+
+[projects."/Users/fengling/Github/CLIProxyAPI"]
+trust_level = "trusted"
+
+[projects."/Users/fengling/Github/federated-fdia-detection"]
+trust_level = "trusted"
+
+[mcp_servers.rainyun-chrome-devtools]
+command = "/Users/fengling/.codex/bin/rainyun-chrome-devtools-mcp"
+
+[mcp_servers.rainyun-chrome-devtools.tools.new_page]
+approval_mode = "approve"
+
+[mcp_servers.rainyun-chrome-devtools.tools.take_snapshot]
+approval_mode = "approve"

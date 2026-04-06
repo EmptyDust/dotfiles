@@ -7,6 +7,10 @@ This repository tracks the portable shell and tooling config from this Mac.
 - `.zshrc`
 - `.zprofile`
 - `.config/pip/pip.conf`
+- `.codex/config.toml`
+- `.codex/config.json`
+- `.claude/settings.json`
+- `.claude/skills/proxy.md`
 
 ## Private environment
 
@@ -22,7 +26,7 @@ cd ~/dotfiles
 ./scripts/bootstrap.sh
 ```
 
-Then edit `~/.config/shell/private_env.zsh` and fill in the machine-local secrets.
+Then edit `~/.config/shell/private_env.zsh` and fill in the machine-local secrets such as `KAGGLE_API_TOKEN` and `ANTHROPIC_AUTH_TOKEN`.
 
 ## Sync changes
 
