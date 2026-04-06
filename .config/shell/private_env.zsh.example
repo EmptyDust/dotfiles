@@ -1,0 +1,4 @@
+# Copy this file to ~/.config/shell/private_env.zsh and keep it out of git.
+# chmod 600 ~/.config/shell/private_env.zsh
+
+export KAGGLE_API_TOKEN="replace-me"
