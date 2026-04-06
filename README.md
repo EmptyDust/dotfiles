@@ -21,8 +21,8 @@ An example template lives at `.config/shell/private_env.zsh.example`.
 ## Bootstrap on a new machine
 
 ```bash
-git clone git@github.com:<github-username>/dotfiles.git ~/Github/dotfiles
-cd ~/Github/dotfiles
+git clone git@github.com:<github-username>/dotfiles.git ~/github/dotfiles
+cd ~/github/dotfiles
 ./scripts/bootstrap.sh
 ```
 
@@ -31,7 +31,7 @@ Then edit `~/.config/shell/private_env.zsh` and fill in the machine-local secret
 ## Sync changes
 
 ```bash
-cd ~/Github/dotfiles
+cd ~/github/dotfiles
 git add .
 git commit -m "Update dotfiles"
 git push

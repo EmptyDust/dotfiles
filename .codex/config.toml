@@ -12,19 +12,19 @@ base_url = "http://api.emptydust.com:8317/v1"
 wire_api = "responses"
 requires_openai_auth = true
 
-[projects."/Users/fengling/Github/EmptyDust.github.io"]
+[projects."/Users/fengling/github/EmptyDust.github.io"]
 trust_level = "trusted"
 
-[projects."/Users/fengling/Github"]
+[projects."/Users/fengling/github"]
 trust_level = "trusted"
 
 [projects."/Users/fengling"]
 trust_level = "trusted"
 
-[projects."/Users/fengling/Github/CLIProxyAPI"]
+[projects."/Users/fengling/github/CLIProxyAPI"]
 trust_level = "trusted"
 
-[projects."/Users/fengling/Github/federated-fdia-detection"]
+[projects."/Users/fengling/github/federated-fdia-detection"]
 trust_level = "trusted"
 
 [mcp_servers.rainyun-chrome-devtools]
